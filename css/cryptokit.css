@@ -11,13 +11,169 @@ html {
 	font-size: 18px;
 	font-family: 'Mukta', sans-serif;
 	background: #381E63;
-	display: grid;
 }
 
+.filled-button {
+	color: white;
+	background: #230B49;
+	border-radius: 4px;
+	padding: 5px 10px;
+	text-decoration: none;
+}
+
+/* h sizes */ 
+h1 .h1 {
+	font-size: 45px;
+	font-weight: 700;
+}
+h2 .h2 {
+	font-size: 40px;
+	font-weight: 700;
+}
+h3 .h3 {
+	font-size: 37px;
+	font-weight: 600;
+}
+h4 .h4 {
+	font-size: 30px;
+	font-weight: 500;
+}
+h5 .h5 {
+	font-size: 27px;
+	font-weight: 400;
+}
+h6 .h6 {
+	font-size: 43px;
+	font-weight: 400;
+}
 .dashboard {
 	position: fixed;
 	bottom: 0;
 	top: 0;
 	width: 242px;
 	background: #230B49;
+	justify-content: center;
+	color: #A5A6A7;
+}
+
+.dashboard .dashboard-logo {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	border-bottom: 1px solid #A5A6A7;
+	padding: 30px 0px;
+}
+
+.dashboard .dashboard-logo img {
+	width: 70%;
+}
+
+.dashboard .dashboard-main-links {
+	width: 100%;
+	margin-top: 50px;
+}
+
+.dashboard .dashboard-main-links ul.main-links li.main-link {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	border-bottom: 1px solid rgba(165, 166, 167, 0.28);
+	padding: 5px 0px;
+}
+
+.dashboard .dashboard-main-links ul.main-links li.main-link i {
+	padding: 0px 10px;
+}
+
+.dashboard .dashboard-main-links h5 {
+	font-size: 23px;
+	font-family: 500;
+}
+
+.dashboard .dashboard-profile {
+	margin-top: 50px;
+	font-size: 19px;
+	padding: 0px 10px;
+}
+.dashboard .dashboard-profile .dashboard-profile-top {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-bottom: 20px;
+}
+.dashboard .dashboard-profile .dashboard-profile-top i {
+	margin-right: 10px;
+	padding: 5px;
+}
+
+.dashboard .dashboard-profile ul.dashboard-profile-links li.dashboard-profile-link {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 5px 10px;
+	font-size: 17px;
+}
+.dashboard .dashboard-profile ul.dashboard-profile-links li.dashboard-profile-link i {
+	margin-right: 10px;
+}
+
+.search-section {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	padding: 20px 0px;
+	position: absolute;
+}
+.search-section input[type="search"] {
+	width: 400px;
+	padding: 7px 10px;
+	border-radius: 6px;
+	outline: none;
+	border:  none;
+	font-size: 20px;
+	letter-spacing: 2px;
+	background: #9F67FA;
+	color: #E5E5E5;
+}
+.search-section i {
+	background: #9F67FA;
+	padding: 10px 10px;
+	margin-left: 5px;
+	border-radius: 5px;
+	align-items: center;
+	color: #E5E5E5;
+}
+
+.balance-section {
+	float: right;
+	width: 300px;
+	background: #9F67FA;
+	text-align: center;
+	padding: 10px 20px;
+	top: 0;
+	float: right;
+	margin-top: 20px;
+	margin-right: 40px;
+	border-radius: 10px;
+}
+.balance-section h3 {
+	font-size: 30px;
+	font-weight: 900;
+	color:  white;
+}
+.balance-section .balance-section-balance {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	font-weight: 700;
+	color: white;
+}
+.balance-section .balance-section-balance h5 {
+	font-size: 40px;
+	margin-right: 5px;
+}
+.balance-section .balance-section-balance p {
+	font-size: 35px;
 }
